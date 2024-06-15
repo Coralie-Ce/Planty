@@ -1,0 +1,25 @@
+/* Import de la police Syne*/
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+/* Header */ 
+
+.header{
+    display: flex;
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    margin-left: 37px;
+    height: 80px;
+}
+
+/* Page d'accueil */ 
+
+.h1-accueil{
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+}
