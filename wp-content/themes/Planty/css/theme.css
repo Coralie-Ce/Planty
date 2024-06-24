@@ -1,9 +1,17 @@
-/* Import de la police Syne*/
+/* Import de la police Syne */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+/* Body */ 
+
+body {
+    font-family: 'syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
 
 /* Header */ 
 
-.header{
+#site-header{
     display: flex;
     background-color: white;
 }
@@ -14,12 +22,44 @@
     height: 80px;
 }
 
+li.menu-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19px;
+}
 /* Page d'accueil */ 
 
+.background-accueil{
+    color: #ECE2DA;
+}
 .h1-accueil{
     color: #3B8E46;
     text-align: center;
     font-family: Syne;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.h2-accueil{
+    color: #D2776A;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.h3-accueil{
+    color: #3B8E46;
+    font-family: Syne;
+}
+/* Footer */ 
+
+.site-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1440px;
+    height: 60px;
+    padding: 20px 0px 20px 0px;
 }
