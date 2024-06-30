@@ -3,55 +3,183 @@
 
 /* Body */ 
 
-body {
+body 
+{
     font-family: 'syne', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin: auto;
+    
+}
+#top-bar{
+    padding: 0px;
+    border: none;
 }
 
+p{
+    color: #000;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
 /* Header */ 
 
-#site-header{
+#site-heade{
     display: flex;
     background-color: white;
+    border-bottom: none;
 }
 
-#logo{
-    display: flex;
-    margin-left: 37px;
+#site-logo{
     height: 80px;
+    padding-left: 37px;
 }
 
-li.menu-item a {
+li.menu-item a{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 19px;
 }
+
+/*Bouton nav commander */ 
+
+li.menu-item-22 a{
+    background-color: #DC9F96;
+    color: white;
+    width: 236px;
+    height: 80px;
+}
 /* Page d'accueil */ 
 
 .background-accueil{
     color: #ECE2DA;
+    border-radius: 0px 0px 614px 690px / 0px 0px 38px 54px;
+}
+.has-background{
+    color: #ECE2DA;
+    border-radius: 0px 0px 611px 690px / 0px 0px 33px 41px;
 }
 .h1-accueil{
     color: #3B8E46;
     text-align: center;
     font-family: Syne;
-    font-size: 38px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
 }
 
 .h2-accueil{
     color: #D2776A;
+    text-align: center;
     font-size: 30px;
     font-weight: 800;
+    text-transform: uppercase;
 }
-
+.p-gouts{
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
 .h3-accueil{
     color: #3B8E46;
     font-family: Syne;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.h4-accueil{
+    color: #3B8E46;
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bouton-commander a{
+    display: flex;
+    background-color: #E0B9B4;
+    padding: 9px 57px 9px 57px;
+    border-radius: 5px;
+}
+
+.wp-block-button__link:hover{
+    color: white;
+}
+
+.galerie-temoignage{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/* Page nous rencontrer */ 
+
+.h1-rencontrer{
+color: #D2776A;
+text-align: center;
+font-family: Syne;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.p-rencontrer{
+color: #000;
+text-align: center;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+width: 669px;
+height: 72px;
+}
+
+.flower-rencontrer{
+width: 145.302px;
+height: 150.262px;
+flex-shrink: 0;
+}
+
+.h2-rencontrer{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plante-equipe{
+    width: 191px;
+    height: 219px;
+}
+.h3-rencontrer{
+color: #000;
+text-align: center;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.wpcf7-formulaire{
+    width: 100%;
+    height: 237px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
 }
 /* Footer */ 
 
