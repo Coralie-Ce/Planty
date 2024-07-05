@@ -36,7 +36,9 @@ p{
     height: 80px;
     padding-left: 37px;
 }
-
+a:focus{
+    outline: 0 !important;
+}
 
 li.menu-item a{
     display: flex;
@@ -82,9 +84,9 @@ li.menu-item-22 .text-wrap{
     color: #ECE2DA;
     border-radius: 0px 0px 614px 690px / 0px 0px 38px 54px;
 }
-.has-background{ /* CHANGER LA CLASSE CSS AVEC IMPORTANT POUR LE DEUXIEME BLOC DE LA PAGE ACCUEIL*/
+.background-gouts{ /* CHANGER LA CLASSE CSS AVEC IMPORTANT POUR LE DEUXIEME BLOC DE LA PAGE ACCUEIL*/
     color: #ECE2DA;
-    border-radius: 0px 0px 611px 690px / 0px 0px 33px 41px;
+    border-radius: 0px 0px 611px 690px / 0px 0px 33px 41px !important;
 }
 .h1-accueil{
     color: #3B8E46;
@@ -164,6 +166,7 @@ font-style: normal;
 font-weight: 400;
 width: 669px;
 height: 72px;
+margin-left: 386px;
 }
 
 .flower-rencontrer{
@@ -182,17 +185,14 @@ flex-shrink: 0;
     line-height: normal;
 }
 
-.conteneur-equipe{
-    position: relative;
-    width: 1440px;
-    height: 554px;
+.team-member{
+    justify-content: center !important;
 }
 
-.plante-equipe{
-    width: 191px;
+.wp-image-432{
+    width: 191px !important;
     height: 219px;
-    position: absolute;
-    bottom: 0;
+    margin-right: 58px !important;
 }
 
 .h3-rencontrer{
@@ -205,11 +205,17 @@ font-weight: 700;
 line-height: normal;
 }
 
+.wpcf7-form{
+    display: grid !important;
+    justify-content: center !important;
+}
+
 .wpcf7-text, .wpcf7-textarea{
     background: white !important;
     width: 383px !important;
     border: none !important;
 }
+
 input[type=submit].wpcf7-submit{
     width: 198px;
     height: 55px;
@@ -218,13 +224,23 @@ input[type=submit].wpcf7-submit{
     border: none;
     border-radius: 5px;
     margin-top: 0px;
+    display: grid;
+    justify-content: center;
     font-size: 15px;
     margin: 0 auto;
     padding: 9px 0px;
+    text-transform: none;
 }
 
+.wp-image-30{
+    width: 147px !important;
+    margin-right: 813px !important;
+}
 /* Page commander */ 
 
+.background-commander{
+    background-color: #3B8E46 !important;
+}
 .h1-commander{
     color: #FFF;
     text-align: center;
@@ -235,7 +251,11 @@ input[type=submit].wpcf7-submit{
     line-height: normal;
     text-transform: uppercase;   
 }
-
+.separateur{
+    height: 1px !important;
+    border: 0.5px solid #FFFFFF !important;
+    width: 860px !important;
+}
 .h2-commander{
     color: #FFF;
     font-family: Syne;
@@ -243,6 +263,24 @@ input[type=submit].wpcf7-submit{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.image-fruit{
+    width: 193px !important;
+    height: 129px !important;
+}
+.fruits-container-order{
+    width: 100% !important;
+}
+.gouts-commander{
+    color: #FFF !important;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    margin: 0;
 }
 
 /* Footer */ 
