@@ -147,6 +147,10 @@ li.menu-item-22 .text-wrap{
 
 /* Page nous rencontrer */ 
 
+.background-rencontrer{
+    color: #ECE2DA !important;
+    border-radius: 0px 0px 614px 690px / 0px 0px 38px 54px !important;
+}
 .h1-rencontrer{
 color: #D2776A;
 text-align: center;
@@ -160,19 +164,23 @@ text-transform: uppercase;
 .p-rencontrer{
 color: #000;
 text-align: center;
+display: grid;
+justify-content: center;
 font-family: Syne;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-width: 669px;
+width: 680px;
 height: 72px;
-margin-left: 386px;
+margin-left: 414px;
 }
 
 .flower-rencontrer{
 width: 145.302px;
 height: 150.262px;
-flex-shrink: 0;
+position: absolute;
+top: 50px;
+left: 153px;
 }
 
 .h2-rencontrer{
@@ -192,7 +200,9 @@ flex-shrink: 0;
 .wp-image-432{
     width: 191px !important;
     height: 219px;
-    margin-right: 58px !important;
+    position: absolute;
+    top: 640px;
+    left: 1255px;
 }
 
 .h3-rencontrer{
@@ -235,6 +245,9 @@ input[type=submit].wpcf7-submit{
 .wp-image-30{
     width: 147px !important;
     margin-right: 813px !important;
+    position: absolute;
+    bottom: 1px !important;
+    left: 482px !important;
 }
 /* Page commander */ 
 
@@ -253,7 +266,7 @@ input[type=submit].wpcf7-submit{
 }
 .separateur{
     height: 1px !important;
-    border: 0.5px solid #FFFFFF !important;
+    color: #FFFFFF !important;
     width: 860px !important;
 }
 .h2-commander{
@@ -276,13 +289,27 @@ input[type=submit].wpcf7-submit{
     color: #FFF !important;
     text-align: center;
     font-family: Syne;
-    font-size: 20px;
+    font-size: 20px !important;
     font-style: normal;
     font-weight: 800;
     line-height: normal; 
     margin: 0;
 }
 
+.formulaire-titre{
+   color: white !important; 
+   font-family: syne;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 700;
+}
+
+.formulaire-commander{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: syne;
+}
 /* Footer */ 
 
 .site-footer{
