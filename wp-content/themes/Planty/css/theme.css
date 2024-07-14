@@ -22,7 +22,6 @@ p{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
 }
 /* Header */ 
 
@@ -95,6 +94,16 @@ li.menu-item-22 .text-wrap{
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+}
+
+.p-accueil{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -201,7 +210,7 @@ left: 153px;
     width: 191px !important;
     height: 219px;
     position: absolute;
-    top: 640px;
+    top: 652px;
     left: 1255px;
 }
 
@@ -218,6 +227,8 @@ line-height: normal;
 .wpcf7-form{
     display: grid !important;
     justify-content: center !important;
+    position: sticky; 
+    z-index: 1;
 }
 
 .wpcf7-text, .wpcf7-textarea{
@@ -246,8 +257,8 @@ input[type=submit].wpcf7-submit{
     width: 147px !important;
     margin-right: 813px !important;
     position: absolute;
-    bottom: 1px !important;
-    left: 482px !important;
+    bottom: 230px !important;
+    left: 495px !important;
 }
 /* Page commander */ 
 
@@ -264,11 +275,13 @@ input[type=submit].wpcf7-submit{
     line-height: normal;
     text-transform: uppercase;   
 }
+
 .separateur{
     height: 1px !important;
     color: #FFFFFF !important;
     width: 860px !important;
 }
+
 .h2-commander{
     color: #FFF;
     font-family: Syne;
@@ -276,15 +289,18 @@ input[type=submit].wpcf7-submit{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 257px;
 }
 
 .image-fruit{
     width: 193px !important;
     height: 129px !important;
 }
+
 .fruits-container-order{
     width: 100% !important;
 }
+
 .gouts-commander{
     color: #FFF !important;
     text-align: center;
@@ -305,7 +321,7 @@ input[type=submit].wpcf7-submit{
 }
 
 .formulaire-commander{
-    color: #FFF;
+    color: #FFF !important;
     font-size: 20px;
     font-weight: 400;
     font-family: syne;
@@ -316,7 +332,4 @@ input[type=submit].wpcf7-submit{
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 1440px;
-    height: 60px;
-    padding: 20px 0px 20px 0px;
 }
