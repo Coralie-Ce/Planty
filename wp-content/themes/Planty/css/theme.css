@@ -16,13 +16,6 @@ body
     border: none;
 }
 
-p{
-    color: #000;
-    font-family: Syne;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-}
 /* Header */ 
 
 #site-header{
@@ -241,7 +234,7 @@ input[type=submit].wpcf7-submit{
     width: 198px;
     height: 55px;
     color: #FFFFFF;
-    background-color: #DC9F96;
+    background-color: #E0B9B4;
     border: none;
     border-radius: 5px;
     margin-top: 0px;
@@ -289,7 +282,9 @@ input[type=submit].wpcf7-submit{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 257px;
+    margin-left: 250px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .image-fruit{
@@ -320,12 +315,21 @@ input[type=submit].wpcf7-submit{
    font-weight: 700;
 }
 
+.info{
+    margin-left: 320px !important;
+}
+
 .formulaire-commander{
     color: #FFF !important;
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: 400;
     font-family: syne;
+    display: flex !important;
+    justify-content: center;
+    gap: 85px;
 }
+
+
 /* Footer */ 
 
 .site-footer{
