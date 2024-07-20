@@ -16,6 +16,12 @@ body
     border: none;
 }
 
+hr {
+    color: #FFF;
+    border: none;
+    border-top: 2px solid #FFF !important;
+    height: 2px;
+}
 /* Header */ 
 
 #site-header{
@@ -269,11 +275,11 @@ input[type=submit].wpcf7-submit{
     text-transform: uppercase;   
 }
 
-.separateur{
+/*.separateur{
     height: 1px !important;
     color: #FFFFFF !important;
     width: 860px !important;
-}
+}*/
 
 .h2-commander{
     color: #FFF;
@@ -315,8 +321,24 @@ input[type=submit].wpcf7-submit{
    font-weight: 700;
 }
 
+.quantites-formulaire{
+    display: flex !important;
+    height: 56px;
+    justify-content: center;
+    gap: 180px;
+}
+
+.number-quantite{
+    width: 39px;
+    height : 56px;
+}
+
+form input[type=number]{
+    background-color: #FFF;
+}
+
 .info{
-    margin-left: 320px !important;
+    border-right: 2px solid #FFF;
 }
 
 .formulaire-commander{
