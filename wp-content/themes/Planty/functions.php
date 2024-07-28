@@ -39,4 +39,11 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 function register_custom_menu(){
     register_nav_menu('header', 'En tête du menu');
 }
+
+function wp_nav_menu_items($items, $args){
+	if (is_user_logged_in() && $args->theme_location == 'navigation'){
+		$items .='<li><a href="' . admin_url() .'">Admin</a></li>';
+	}
+	return $items;
+}
 ?>

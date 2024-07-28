@@ -19,8 +19,8 @@ body
 hr {
     color: #FFF;
     border: none;
-    border-top: 2px solid #FFF !important;
-    height: 2px;
+    border-top: 1px solid #FFF !important;
+    height: 1px;
 }
 /* Header */ 
 
@@ -29,7 +29,6 @@ hr {
     border-bottom: none;
     font-family: Syne;
 }
-
 #site-logo{
     height: 80px;
     padding-left: 37px;
@@ -37,7 +36,6 @@ hr {
 a:focus{
     outline: 0 !important;
 }
-
 li.menu-item a{
     display: flex;
     justify-content: center;
@@ -47,15 +45,15 @@ li.menu-item a{
     font-family: Syne;
     color: black;
 }
-
 .menu-item a{
     height: 80px;
     width: 160px;
     background: none;
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 /*Bouton nav commander */ 
@@ -63,10 +61,9 @@ li.menu-item a{
 li.menu-item-22 a{
     background-color: #DC9F96;
     color: white;
-    width: 230px;
+    width: 236px;
     height: 80px;
 }
-
 li.menu-item-22 .text-wrap{
     color: white;
     font-size: 16px;
@@ -95,7 +92,6 @@ li.menu-item-22 .text-wrap{
     font-weight: 700;
     line-height: normal;
 }
-
 .p-accueil{
     color: #000;
     text-align: center;
@@ -105,7 +101,6 @@ li.menu-item-22 .text-wrap{
     font-weight: 400;
     line-height: normal;
 }
-
 .h2-accueil{
     color: #D2776A;
     text-align: center;
@@ -130,7 +125,6 @@ li.menu-item-22 .text-wrap{
     font-weight: 800;
     font-style: normal;
 }
-
 .h4-accueil{
     color: #3B8E46;
     font-family: Syne;
@@ -143,11 +137,9 @@ li.menu-item-22 .text-wrap{
     padding: 9px 57px 9px 57px;
     border-radius: 5px;
 }
-
 .wp-block-button__link:hover{
     color: white;
 }
-
 .galerie-temoignage{
     padding-left: 135px;
     padding-right: 135px;
@@ -168,7 +160,6 @@ font-style: normal;
 font-weight: 800;
 text-transform: uppercase;
 }
-
 .p-rencontrer{
 color: #000;
 text-align: center;
@@ -182,7 +173,6 @@ width: 680px;
 height: 72px;
 margin-left: 414px;
 }
-
 .flower-rencontrer{
 width: 145.302px;
 height: 150.262px;
@@ -190,7 +180,6 @@ position: absolute;
 top: 50px;
 left: 153px;
 }
-
 .h2-rencontrer{
     color: #000;
     text-align: center;
@@ -200,11 +189,9 @@ left: 153px;
     font-weight: 700;
     line-height: normal;
 }
-
 .team-member{
     justify-content: center !important;
 }
-
 .wp-image-432{
     width: 191px !important;
     height: 219px;
@@ -212,7 +199,6 @@ left: 153px;
     top: 652px;
     left: 1255px;
 }
-
 .h3-rencontrer{
 color: #000;
 text-align: center;
@@ -222,20 +208,22 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
 .wpcf7-form{
     display: grid !important;
     justify-content: center !important;
     position: sticky; 
     z-index: 1;
 }
-
+.wpcf7-label{
+    color: black;
+}
 .wpcf7-text, .wpcf7-textarea{
     background: white !important;
     width: 383px !important;
     border: none !important;
+    min-height: 71px !important;
+    border-radius: 7px !important;
 }
-
 input[type=submit].wpcf7-submit{
     width: 198px;
     height: 55px;
@@ -251,7 +239,6 @@ input[type=submit].wpcf7-submit{
     padding: 9px 0px;
     text-transform: none;
 }
-
 .wp-image-30{
     width: 147px !important;
     margin-right: 813px !important;
@@ -274,13 +261,12 @@ input[type=submit].wpcf7-submit{
     line-height: normal;
     text-transform: uppercase;   
 }
-
-/*.separateur{
+.separateur{
     height: 1px !important;
     color: #FFFFFF !important;
     width: 860px !important;
-}*/
-
+    border-bottom: none !important;
+}
 .h2-commander{
     color: #FFF;
     font-family: Syne;
@@ -288,20 +274,17 @@ input[type=submit].wpcf7-submit{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 250px;
+    text-align: center;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
 .image-fruit{
     width: 193px !important;
     height: 129px !important;
 }
-
 .fruits-container-order{
     width: 100% !important;
 }
-
 .gouts-commander{
     color: #FFF !important;
     text-align: center;
@@ -312,7 +295,6 @@ input[type=submit].wpcf7-submit{
     line-height: normal; 
     margin: 0;
 }
-
 .formulaire-titre{
    color: white !important; 
    font-family: syne;
@@ -320,27 +302,39 @@ input[type=submit].wpcf7-submit{
    font-style: normal;
    font-weight: 700;
 }
-
 .quantites-formulaire{
     display: flex !important;
     height: 56px;
     justify-content: center;
     gap: 180px;
+    padding-top: 15px;
+    margin-bottom: 25px;
 }
-
-.number-quantite{
-    width: 39px;
-    height : 56px;
-}
-
 form input[type=number]{
     background-color: #FFF;
+    border-radius: 0 !important;
+    border-color: white !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    font-family: 'syne';
+    padding: 0 !important;
+    height: 50px !important;
+    width: 39px !important;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 
+}
 .info{
-    border-right: 2px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding-right: 45px;
+    height: 428px;
 }
-
+.livraison{
+    padding-left: 45px;
+}
 .formulaire-commander{
     color: #FFF !important;
     font-size: 20px !important;
@@ -348,9 +342,9 @@ form input[type=number]{
     font-family: syne;
     display: flex !important;
     justify-content: center;
-    gap: 85px;
+    padding-top: 37px;
+    padding-bottom: 30px;
 }
-
 
 /* Footer */ 
 
@@ -358,4 +352,66 @@ form input[type=number]{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+#footer-widgets{
+    padding: 0 !important;
+}
+
+
+/* Media Queries */ 
+
+/*Téléphone*/
+@media all and (min-width : 320px) and (max-width: 768px){
+
+}
+
+/*Tablette*/ 
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*Page nous rencontrer*/ 
+.wp-image-30 {
+        left: 130px !important;
+}
+
+
+    /*Page commander*/ 
+.mobile-searchform{
+        display: none;
+    }
+.oceanwp-mobile-menu-icon.mobile-right{
+    padding-right: 25px;
+}
+#mobile-dropdown ul li {
+    border: none;
+}
+.menu-item a {
+    width: auto;
+}
+.h2-commander{
+    text-align: center;
+    margin-left: 0;
+}
+.separateur{
+    width: 700px !important;
+}
+.formulaire-commander{
+    flex-direction: column !important;
+}
+.info{
+    border-right: none;
+    align-self: center;
+    padding-right: 0;
+}
+.livraison{
+    align-self: center;
+    padding-left: 0;
+    padding-top: 30px;
+}
+}
+
+/*Desktop*/ 
+@media screen and (min-width: 1024px) {
+    
 }
