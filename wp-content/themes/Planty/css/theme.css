@@ -3,24 +3,27 @@
 
 /* Body */ 
 
-body 
-{
+body{
     font-family: 'syne', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    margin: auto;
-    
+    margin: auto;  
 }
 #top-bar{
     padding: 0px;
     border: none;
 }
-
 hr {
     color: #FFF;
     border: none;
     border-top: 1px solid #FFF !important;
     height: 1px;
+}
+.mobile-searchform{
+    display: none;
+}
+#mobile-dropdown ul li {
+    border: none;
 }
 /* Header */ 
 
@@ -55,9 +58,25 @@ li.menu-item a{
     flex-direction: column;
     justify-content: center !important;
 }
-
+li.menu-item-635{
+    order: 1;
+}
+#site-navigation-wrap .dropdown-menu{
+    display: flex;
+}
+li{
+    order: 2;
+}
+#mobile-dropdown ul li a {
+    display: block;
+    position: relative;
+    padding: 12px 40px;
+    text-align: center;
+}
 /*Bouton nav commander */ 
-
+li.menu-item-22{
+    order: 3;
+}
 li.menu-item-22 a{
     background-color: #DC9F96;
     color: white;
@@ -79,7 +98,7 @@ li.menu-item-22 .text-wrap{
     color: #ECE2DA;
     border-radius: 0px 0px 614px 690px / 0px 0px 38px 54px;
 }
-.background-gouts{ /* CHANGER LA CLASSE CSS AVEC IMPORTANT POUR LE DEUXIEME BLOC DE LA PAGE ACCUEIL*/
+.background-gouts{
     color: #ECE2DA;
     border-radius: 0px 0px 611px 690px / 0px 0px 33px 41px !important;
 }
@@ -154,11 +173,11 @@ li.menu-item-22 .text-wrap{
 .h1-rencontrer{
 color: #D2776A;
 text-align: center;
+justify-content: center;
 font-family: Syne;
 font-size: 38px;
 font-style: normal;
 font-weight: 800;
-text-transform: uppercase;
 }
 .p-rencontrer{
 color: #000;
@@ -171,7 +190,7 @@ font-style: normal;
 font-weight: 400;
 width: 680px;
 height: 72px;
-margin-left: 414px;
+margin: 0 auto;
 }
 .flower-rencontrer{
 width: 145.302px;
@@ -196,8 +215,8 @@ left: 153px;
     width: 191px !important;
     height: 219px;
     position: absolute;
-    top: 652px;
-    left: 1255px;
+    top: 631px;
+    left: 1200px;
 }
 .h3-rencontrer{
 color: #000;
@@ -242,9 +261,9 @@ input[type=submit].wpcf7-submit{
 .wp-image-30{
     width: 147px !important;
     margin-right: 813px !important;
-    position: absolute;
+    position: relative;
     bottom: 230px !important;
-    left: 495px !important;
+    right: 19px !important;
 }
 /* Page commander */ 
 
@@ -362,30 +381,87 @@ input[type=number]::-webkit-outer-spin-button {
 /* Media Queries */ 
 
 /*Téléphone*/
-@media all and (min-width : 320px) and (max-width: 768px){
+@media screen and (min-width : 320px) and (max-width: 768px){
+#mobile-dropdown ul li{
+        border: none;
+        padding: 0 0 20px 0;
+        text-align: center;
+    }
+.menu-item a{
+    width: auto;
+   } 
+.wp-container-content-3{
+        height: 30px !important;
+}
+body .is-layout-flex{
+    display: contents;
+}
+.fraise-pamplemousse{
+    display: block !important;
+}
+.framboise-citron{
+    display: block !important;
+}
+.wp-container-content-6{
+    height: 30px !important;
+}
+.bouton-commander{
+    display: flex !important;
+    justify-content: center !important;
+}
+.p-accueil{
+    font-size: 15px; 
+    padding: 0px 15px; 
+}
+.h2-accueil{
+    font-size: 20px;
+}
+.has-text-align-center{
+    font-size: 15px; 
+    padding: 0px 15px;
+}
+.p-gouts{
+    font-size: 33px !important;
+}
+.wp-image-35, .wp-image-34, .wp-image-31{
+    width: 30% !important;
+    margin-left: 27px;
+}
+
 
 }
 
 /*Tablette*/ 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+#mobile-dropdown ul li{
+    border: none;
+    padding: 15px;
+    text-align: center;
+}
     /*Page nous rencontrer*/ 
-.wp-image-30 {
-        left: 130px !important;
+.flower-rencontrer{
+    position: absolute ;
+    top: 5px;
+    left: 1px;
+    width: 15%;
 }
 
-
+.wp-image-432{/*à revoir*/
+    position: absolute;
+    left: 568px;
+    top: 1285px;
+}
+.wp-image-30{
+    position: relative;
+    left: 118px;
+}
     /*Page commander*/ 
-.mobile-searchform{
-        display: none;
-    }
+
 .oceanwp-mobile-menu-icon.mobile-right{
     padding-right: 25px;
 }
-#mobile-dropdown ul li {
-    border: none;
-}
+
 .menu-item a {
     width: auto;
 }
@@ -411,7 +487,31 @@ input[type=number]::-webkit-outer-spin-button {
 }
 }
 
+
+
+@media screen and (max-width: 959px){
+li.menu-item-22 a{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+}
 /*Desktop*/ 
 @media screen and (min-width: 1024px) {
-    
+.flower-rencontrer{
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+/*.wp-image-432{
+    position: absolute;
+    top: 631px; 
+    left: 830px;
+}*/
+.wp-image-30{
+    position: absolute;
+    margin-right: 610px !important;
+}
 }

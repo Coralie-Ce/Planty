@@ -40,10 +40,11 @@ function register_custom_menu(){
     register_nav_menu('header', 'En tête du menu');
 }
 
-function wp_nav_menu_items($items, $args){
-	if (is_user_logged_in() && $args->theme_location == 'navigation'){
+function menu_admin($items, $args){
+	if (is_user_logged_in() && $args->theme_location == 'main_menu'){
 		$items .='<li><a href="' . admin_url() .'">Admin</a></li>';
 	}
 	return $items;
 }
+add_filter('wp_nav_menu_items', 'menu_admin', 10, 2);
 ?>
