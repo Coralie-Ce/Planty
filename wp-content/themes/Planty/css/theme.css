@@ -197,7 +197,7 @@ width: 145.302px;
 height: 150.262px;
 position: absolute;
 top: 50px;
-left: 153px;
+left: 170px !important;
 }
 .h2-rencontrer{
     color: #000;
@@ -263,7 +263,7 @@ input[type=submit].wpcf7-submit{
     margin-right: 813px !important;
     position: relative;
     bottom: 230px !important;
-    right: 19px !important;
+    right: 220px !important;
 }
 /* Page commander */ 
 
@@ -382,16 +382,29 @@ input[type=number]::-webkit-outer-spin-button {
 
 /*Téléphone*/
 @media screen and (min-width : 320px) and (max-width: 768px){
+    /*Page d'accueil*/
+#site-logo{
+    padding-left: 0;
+}
+#mobile-dropdown #mobile-menu-search {
+    display: none;
+}
+.oceanwp-mobile-menu-icon{
+    padding-right: 15px;
+}
 #mobile-dropdown ul li{
-        border: none;
-        padding: 0 0 20px 0;
-        text-align: center;
-    }
+    border: none;
+    padding: 0 0 0px 0;
+    text-align: center;
+}
 .menu-item a{
     width: auto;
-   } 
+} 
+.menu-item-635{
+    padding-bottom: 30px !important;
+}
 .wp-container-content-3{
-        height: 30px !important;
+    height: 30px !important;
 }
 body .is-layout-flex{
     display: contents;
@@ -427,10 +440,66 @@ body .is-layout-flex{
     width: 30% !important;
     margin-left: 27px;
 }
-
-
+    /*Page commander*/
+.h1-commander{
+    font-size: 23px;
+}
+.wp-block-separator{
+    width: 278px !important;
+}
+.h2-commander{
+    font-size: 23px;
+}
+.gouts-commander{
+    padding: 0;
+}
+.fruits-container-order{
+    display: grid !important;
+}
+.wp-container-content-5, .wp-container-content-7{
+    height: 30px !important;
+}
+.formulaire-commander{
+    flex-direction: column !important;
+}
+.info, .livraison{
+    align-self: center;
+    padding: 15px;
+    height: auto;
+}
+.wpcf7-text, .wpcf7-textarea {
+    min-height: 35px !important;
+}
+form input[type=email]{
+    padding: 0;
 }
 
+/*Page nous rencontrer */ 
+
+.wpcf7-label{
+    display:grid !important; 
+    justify-content: center;
+}
+.wpcf7-text{
+    width: auto !important;
+}
+.wpcf7-form {
+    display: flex !important;
+    flex-direction: column;
+}
+form input[type=text]{
+    padding: 0;
+}
+.wpcf7-textarea{
+    width: auto !important;
+}
+form textarea{
+    padding: 0 !important; 
+}
+.p-rencontrer{
+    width: auto !important;
+}
+}
 /*Tablette*/ 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
