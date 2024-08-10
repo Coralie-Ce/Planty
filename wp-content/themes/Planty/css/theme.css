@@ -106,6 +106,31 @@ li.menu-item-22 .text-wrap{
     color: #3B8E46;
     text-align: center;
     font-family: Syne;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.cannette{
+    position: relative;
+    z-index: 2 !important;
+}
+.fleur-1-accueil{
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    z-index: 1 !important;
+}
+.fleur-2-accueil{
+    position: absolute;
+    top: 250px; 
+    right: 480px; 
+    z-index: 1 !important;
+}
+.h2-accueil{
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -120,7 +145,7 @@ li.menu-item-22 .text-wrap{
     font-weight: 400;
     line-height: normal;
 }
-.h2-accueil{
+.h3-accueil{
     color: #D2776A;
     text-align: center;
     font-size: 30px;
@@ -136,7 +161,7 @@ li.menu-item-22 .text-wrap{
     font-weight: 800;
     line-height: normal; 
 }
-.h3-accueil{
+.h4-accueil{
     color: #3B8E46;
     font-family: Syne;
     text-align: center;
@@ -144,7 +169,7 @@ li.menu-item-22 .text-wrap{
     font-weight: 800;
     font-style: normal;
 }
-.h4-accueil{
+.h5-accueil{
     color: #3B8E46;
     font-family: Syne;
     font-size: 30px;
@@ -211,11 +236,11 @@ left: 170px !important;
 .team-member{
     justify-content: center !important;
 }
-.wp-image-432{
+.plante-equipe{
     width: 191px !important;
     height: 219px;
     position: absolute;
-    top: 631px;
+    top: 613px;
     left: 1200px;
 }
 .h3-rencontrer{
