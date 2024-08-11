@@ -36,6 +36,9 @@ hr {
     height: 80px;
     padding-left: 37px;
 }
+#site-navigation-wrap{
+    right: 0 !important;
+}
 a:focus{
     outline: 0 !important;
 }
@@ -118,13 +121,13 @@ li.menu-item-22 .text-wrap{
 .fleur-1-accueil{
     position: absolute;
     top: 250px;
-    left: 480px;
+    left: 480px !important;
     z-index: 1 !important;
 }
 .fleur-2-accueil{
     position: absolute;
     top: 250px; 
-    right: 480px; 
+    right: 480px !important; 
     z-index: 1 !important;
 }
 .h2-accueil{
@@ -415,13 +418,15 @@ input[type=number]::-webkit-outer-spin-button {
 .wp-image-30{
     display: none;
 }
-
+.separateur-1{
+    height: 60px !important;
+}
 }
 @media screen and (min-width : 320px) and (max-width: 420px){
 .fleur-1-accueil{
     position: absolute;
     top: 290px;
-    left: 23px; 
+    left: 23px !important; 
     width: 40%; 
     z-index: 1 !important;
 }
@@ -429,7 +434,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
     width: 40%; 
     top: 290px;
-    right: 20px; 
+    right: 20px !important; 
     z-index: 1 !important;
 }
 
@@ -438,19 +443,33 @@ input[type=number]::-webkit-outer-spin-button {
 .fleur-1-accueil{
     position: absolute;
     top: 250px; 
-    left: 30px; 
+    left: 30px !important; 
     width: 60%; 
     z-index: 1 !important;
 }
 .fleur-2-accueil{
     position: absolute;
     top: 250px;
-    right: 30px;
+    right: 30px !important;
     width: 60%;
     z-index: 1 !important;
 }
 }
 @media screen and (min-width : 600px) and (max-width: 669px){
+.fleur-1-accueil{
+    position: absolute; 
+    width: 50%;
+    top: 250px;
+    left: 60px !important;
+    z-index: 1 !important;
+}
+.fleur-2-accueil{
+    position: absolute;
+    width: 50%;
+    top: 250px;
+    right: 80px !important;
+    z-index: 1 !important;
+}
 .flower-rencontrer{
     position: absolute;
     top: 15px;
@@ -461,7 +480,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
     top: 1127px;
     left: 420px;
-    }
+}
 .wp-image-30{
     margin-right: 370px !important;
     position: relative;
@@ -474,15 +493,60 @@ input[type=number]::-webkit-outer-spin-button {
     top: 15px;
     left: 50px !important;
     width: 20%;
-    }
+}
 .plante-equipe{
     position: absolute;
     top: 1127px;
     left: 450px;
-    }
 }
+.fleur-1-accueil{
+    position: absolute;
+    top: 250px;
+    left: 80px !important;
+    z-index: 1 !important;
+    width: 50%;
+}
+.fleur-2-accueil{
+    position: absolute; 
+    width: 50%;
+    right: 80px !important;
+    top: 250px;
+    z-index: 1 !important;
+}
+}
+@media screen and (min-width : 768px) and (max-width: 1000px){
+.fleur-2-accueil{
+    position: absolute;
+    width: 50%;
+    z-index: 1 !important;
+    top: 250px; 
+    right: 130px !important;
+}
+.fleur-1-accueil{
+    position: absolute; 
+    z-index: 1 !important;
+    width: 50%; 
+    top: 250px; 
+    left: 130px !important;
 
-
+}
+}
+@media screen and (min-width : 1000px) and (max-width: 1024px){
+.fleur-1-accueil{
+    position: absolute; 
+    z-index: 1 !important;
+    width: 50%; 
+    top: 250px; 
+    left: 140px !important;   
+}
+.fleur-2-accueil{
+    position: absolute;
+    width: 50%;
+    z-index: 1 !important;
+    top: 250px; 
+    right: 150px !important;
+}
+}
 @media screen and (min-width : 320px) and (max-width: 768px){
     /*Page d'accueil*/
 #site-logo{
@@ -604,7 +668,7 @@ form textarea{
 }
 /*Tablette*/ 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 #mobile-dropdown ul li{
     border: none;
     padding: 15px;
@@ -618,11 +682,11 @@ form textarea{
     width: 20%;
 }
 
-.wp-image-432{/*à revoir*/
+/*.wp-image-432{à revoir
     position: absolute;
     left: 568px;
     top: 1285px;
-}
+}*/
 .wp-image-30{
     position: relative;
     left: 118px;
@@ -658,8 +722,6 @@ form textarea{
 }
 }
 
-
-
 @media screen and (max-width: 959px){
 li.menu-item-22 a{
     width: 100%;
@@ -670,12 +732,24 @@ li.menu-item-22 a{
 }
 }
 /*Desktop*/ 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 .flower-rencontrer{
     position: absolute;
     top: 30px;
     left: 8px;
 }
+/*.fleur-1-accueil{
+    position: absolute;
+    top: 250px;
+    left: 330px !important;
+    z-index: 1 !important;
+}*/
+/*.fleur-2-accueil{
+    position: absolute; 
+    z-index: 1 !important;
+    top: 250px; 
+    right: 330px !important;
+}*/
 /*.wp-image-432{
     position: absolute;
     top: 631px; 
@@ -684,5 +758,19 @@ li.menu-item-22 a{
 .wp-image-30{
     position: absolute;
     margin-right: 610px !important;
+}
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+.fleur-1-accueil{
+    position: absolute;
+    top: 250px;
+    left: 370px !important; 
+    z-index: 1 !important;
+}
+.fleur-2-accueil{
+    position: absolute;
+    top: 250px;
+    right: 370px !important;
+    z-index: 1 !important;
 }
 }
