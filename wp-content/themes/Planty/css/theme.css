@@ -76,6 +76,9 @@ li{
     padding: 12px 40px;
     text-align: center;
 }
+#mobile-dropdown #mobile-menu-search {
+    display: none !important;
+}
 /*Bouton nav commander */ 
 li.menu-item-22{
     order: 3;
@@ -447,7 +450,6 @@ input[type=number]::-webkit-outer-spin-button {
     right: 20px !important; 
     z-index: 1 !important;
 }
-
 }
 @media screen and (min-width : 421px) and (max-width: 600px){
 .fleur-1-accueil{
@@ -492,9 +494,8 @@ input[type=number]::-webkit-outer-spin-button {
     left: 420px;
 }
 .wp-image-30{
-    margin-right: 370px !important;
+    margin-right: 160px !important;
     position: relative;
-    right: 15px !important;
 }
 .info{
     border-right: none;
@@ -589,6 +590,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 690px;
     left: 689px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 150px;
 }    
 }
 @media screen and (min-width : 830px) and (max-width: 845px){
@@ -597,6 +601,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 685px;
     left: 709px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 160px;
 } 
 }
 @media screen and (min-width : 845px) and (max-width: 870px){
@@ -605,7 +612,10 @@ input[type=number]::-webkit-outer-spin-button {
     top: 683px;
     left: 720px;
     width: 15% !important;
-} 
+}
+.wp-image-30{
+    left: 170px;
+}  
 }
 @media screen and (min-width : 871px) and (max-width: 890px){
 .plante-equipe{
@@ -613,7 +623,10 @@ input[type=number]::-webkit-outer-spin-button {
     top: 677px;
     left: 740px;
     width: 15% !important;
-} 
+}
+.wp-image-30{
+    left: 180px;
+}  
 }
 @media screen and (min-width : 891px) and (max-width: 910px){
 .plante-equipe{
@@ -622,6 +635,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 760px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 190px;
+} 
 }
 @media screen and (min-width : 910px) and (max-width: 935px){
 .plante-equipe{
@@ -630,6 +646,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 780px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 200px;
+} 
 }
 @media screen and (min-width : 935px) and (max-width: 960px){
 .plante-equipe{
@@ -638,6 +657,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 791px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 210px;
+} 
 }
 @media screen and (min-width : 960px) and (max-width: 985px){
 .plante-equipe{
@@ -646,14 +668,20 @@ input[type=number]::-webkit-outer-spin-button {
     left: 815px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 210px;
+} 
 }
-@media screen and (min-width : 985px) and (max-width: 1000px){
+@media screen and (min-width : 986px) and (max-width: 1000px){
 .plante-equipe{
     position: absolute; 
     top: 660px;
     left: 840px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 200px;
+} 
 }
 @media screen and (min-width : 1001px) and (max-width: 1030px){
 .plante-equipe{
@@ -662,6 +690,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 850px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 190px;
+} 
 }
 @media screen and (min-width : 1031px) and (max-width: 1050px){
 .plante-equipe{
@@ -669,6 +700,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 650px;
     left: 880px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 180px;
 }
 }
 @media screen and (min-width : 1051px) and (max-width: 1080px){
@@ -678,6 +712,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 880px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 170px;
+}
 }
 @media screen and (min-width : 1081px) and (max-width: 1110px){
 .plante-equipe{
@@ -685,6 +722,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 641px;
     left: 910px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 150px;
 }
 }
 @media screen and (min-width : 1111px) and (max-width: 1140px){
@@ -694,6 +734,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 935px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 130px;
+}
 }
 @media screen and (min-width : 1141px) and (max-width: 1175px){
 .plante-equipe{
@@ -701,6 +744,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 630px;
     left: 970px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 110px;
 }
 }
 @media screen and (min-width : 1176px) and (max-width: 1200px){
@@ -710,6 +756,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 990px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 100px;
+}
 }
 @media screen and (min-width : 1201px) and (max-width: 1250px){
 .plante-equipe{
@@ -717,6 +766,9 @@ input[type=number]::-webkit-outer-spin-button {
     top: 619px;
     left: 1020px;
     width: 15% !important;
+}
+.wp-image-30{
+    left: 80px;
 }
 }
 @media screen and (min-width : 1251px) and (max-width: 1300px){
@@ -726,6 +778,9 @@ input[type=number]::-webkit-outer-spin-button {
     left: 1060px;
     width: 15% !important;
 }
+.wp-image-30{
+    left: 55px;
+}
 }
 @media screen and (min-width : 1301px) and (max-width: 1400px){
 .plante-equipe{
@@ -733,6 +788,16 @@ input[type=number]::-webkit-outer-spin-button {
     top: 610px;
     left: 1090px;
     width: 15% !important;
+}
+}
+@media screen and (min-width : 1301px) and (max-width: 1350px){
+.wp-image-30{
+    left: 30px;
+}
+}
+@media screen and (min-width : 1351px) and (max-width: 1400px){
+.wp-image-30{
+    left: 10px;
 }
 }
 @media screen and (min-width : 769px) and (max-width: 1000px){
@@ -783,9 +848,6 @@ input[type=number]::-webkit-outer-spin-button {
     /*Page d'accueil*/
 #site-logo{
     padding-left: 0;
-}
-#mobile-dropdown #mobile-menu-search {
-    display: none;
 }
 .oceanwp-mobile-menu-icon{
     padding-right: 15px;
@@ -903,10 +965,13 @@ form textarea{
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 #mobile-dropdown ul li{
     border: none;
-    padding: 15px;
     text-align: center;
+    margin: 0;
+    padding-top: 25px;
 }
-
+#mobile-dropdown ul{
+    margin: 0;
+}
 .oceanwp-mobile-menu-icon.mobile-right{
     padding-right: 25px;
 }
@@ -934,7 +999,6 @@ form textarea{
     padding-top: 30px;
 }
 }
-
 @media screen and (max-width: 959px){
 li.menu-item-22 a{
     width: 100%;
@@ -969,11 +1033,6 @@ li.menu-item-22 a{
     top: 250px; 
     right: 330px !important;
 }*/
-
-.wp-image-30{
-    position: absolute;
-    margin-right: 610px !important;
-}
 }
 @media screen and (min-width: 1100px) and (max-width: 1200px){
 .fleur-1-accueil{
@@ -987,5 +1046,10 @@ li.menu-item-22 a{
     top: 250px;
     right: 370px !important;
     z-index: 1 !important;
+}
+}
+@media screen and (min-width: 782px) and (max-width: 897px){
+.h5-accueil{
+font-size: 20px;
 }
 }
