@@ -655,6 +655,86 @@ input[type=number]::-webkit-outer-spin-button {
     width: 15% !important;
 }
 }
+@media screen and (min-width : 1001px) and (max-width: 1030px){
+.plante-equipe{
+    position: absolute; 
+    top: 656px;
+    left: 850px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1031px) and (max-width: 1050px){
+.plante-equipe{
+    position: absolute; 
+    top: 650px;
+    left: 880px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1051px) and (max-width: 1080px){
+.plante-equipe{
+    position: absolute; 
+    top: 647px;
+    left: 880px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1081px) and (max-width: 1110px){
+.plante-equipe{
+    position: absolute; 
+    top: 641px;
+    left: 910px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1111px) and (max-width: 1140px){
+.plante-equipe{
+    position: absolute; 
+    top: 637px;
+    left: 935px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1141px) and (max-width: 1175px){
+.plante-equipe{
+    position: absolute; 
+    top: 630px;
+    left: 970px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1176px) and (max-width: 1200px){
+.plante-equipe{
+    position: absolute; 
+    top: 624px;
+    left: 990px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1201px) and (max-width: 1250px){
+.plante-equipe{
+    position: absolute; 
+    top: 619px;
+    left: 1020px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1251px) and (max-width: 1300px){
+.plante-equipe{
+    position: absolute; 
+    top: 611px;
+    left: 1060px;
+    width: 15% !important;
+}
+}
+@media screen and (min-width : 1301px) and (max-width: 1400px){
+.plante-equipe{
+    position: absolute; 
+    top: 610px;
+    left: 1090px;
+    width: 15% !important;
+}
+}
 @media screen and (min-width : 769px) and (max-width: 1000px){
 .fleur-2-accueil{
     position: absolute;
