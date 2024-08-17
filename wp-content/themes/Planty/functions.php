@@ -41,10 +41,14 @@ function register_custom_menu(){
 }
 
 function menu_admin($items, $args){
-	if (is_user_logged_in() && $args->theme_location == 'main_menu'){
+	/*if (is_user_logged_in() && ($args->theme_location == 'mobile_menu' || $args->theme_location == 'main_menu')){*/
+
+
+		if (is_user_logged_in() && in_array($args->theme_location, ['mobile_menu','main_menu'])){
+	/*if (is_user_logged_in() && $args->theme_location == 'main_menu'){*/
 		$items .='<li><a href="' . admin_url() .'">Admin</a></li>';
 	}
 	return $items;
 }
 add_filter('wp_nav_menu_items', 'menu_admin', 10, 2);
-?>
+?> 

@@ -294,7 +294,6 @@ input[type=submit].wpcf7-submit{
     margin-right: 813px !important;
     position: relative;
     bottom: 230px !important;
-    right: 220px !important;
 }
 /* Page commander */ 
 
@@ -325,8 +324,8 @@ input[type=submit].wpcf7-submit{
     font-weight: 700;
     line-height: normal;
     text-align: center;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 .image-fruit{
     width: 193px !important;
@@ -1000,6 +999,10 @@ form textarea{
 }
 }
 @media screen and (max-width: 959px){
+#mobile-dropdown ul{
+    display: flex;
+    flex-direction: column;
+}
 li.menu-item-22 a{
     width: 100%;
     display: grid;
@@ -1007,14 +1010,23 @@ li.menu-item-22 a{
     text-align: center;
     height: auto;
 }
+li.menu-item-635{
+    order: 1;
 }
-/*Desktop*/ 
+li{
+    order: 2;
+    font-size: 16px;
+}
+li.menu-item-22{
+    order: 3;
+}
+}
+@media screen and (max-width:802px){
+hr{
+display: none;
+   } 
+}
 @media screen and (min-width: 1025px) {
-.flower-rencontrer{
-    position: absolute;
-    top: 30px;
-    left: 8px;
-}
 .flower-rencontrer{
     position: absolute ;
     top: 5px;
